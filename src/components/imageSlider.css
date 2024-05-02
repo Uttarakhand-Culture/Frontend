@@ -1,0 +1,77 @@
+.animation-header-image{
+    overflow: clip;
+    -webkit-mask-image: linear-gradient(to bottom, #000000 60%, rgba(0, 0, 0, 0));
+    mask-image: linear-gradient(to bottom, #000000 60%, rgba(0, 0, 0, 0));
+}
+.carousel-wrapper {
+    width: 100%;
+    aspect-ratio: 16/9;
+    /*overflow: hidden;*/
+    /*position: relative;*/
+    /*-webkit-mask-image: linear-gradient(to bottom, #000000 60%, rgba(0, 0, 0, 0));*/
+    /*mask-image: linear-gradient(to bottom, #000000 60%, rgba(0, 0, 0, 0));*/
+}
+.slide {
+    width: 100%;
+    height: 100%;
+    /*position: absolute;*/
+    /*transition: transform 1ms;*/
+}
+.slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: inherit;
+}
+
+.carousel-wrapper-animation{
+    animation: slide-out 5s linear both;
+    animation-timeline: view();
+    animation-range: exit;
+}
+@keyframes slide-out {
+    from{
+        transform: scale(1);
+        opacity: 1;
+    }
+    to{
+        transform: scale(2);
+        opacity: 0.1;
+    }
+}
+
+/* https://scroll-driven-animations.style/tools/view-timeline/ranges/#range-start-name=cover&range-start-percentage=0&range-end-name=cover&range-end-percentage=100&view-timeline-axis=block&view-timeline-inset=0&subject-size=smaller&subject-animation=reveal&interactivity=clicktodrag&show-areas=yes&show-fromto=yes&show-labels=yes */
+/*.carousel-wrapper .btn {*/
+/*    font-size: 3rem;*/
+/*    background: transparent;*/
+/*    color: #FF9800;*/
+/*    padding: 6px 10px;*/
+/*    border-radius: 50%;*/
+/*    border: none;*/
+/*    margin: 10px;*/
+/*    position: absolute;*/
+/*    transform: translateY(-50%);*/
+/*    cursor: pointer;*/
+/*}*/
+/*.carousel-wrapper .btn:hover {*/
+/*    color: white;*/
+/*    background:  #FF9800;*/
+/*}*/
+/*.previous {*/
+/*    top: 50%;*/
+/*    left: 0;*/
+/*}*/
+/*.next {*/
+/*    top: 50%;*/
+/*    right: 0;*/
+/*}*/
+/*@media only screen and (max-width: 900px) {*/
+/*    .carousel-wrapper .btn {*/
+/*        font-size: 2rem;*/
+/*    }*/
+/*}*/
+/*@media only screen and (max-width: 500px) {*/
+/*    .carousel-wrapper .btn {*/
+/*        font-size: 1.5rem;*/
+/*    }*/
+/*}*/

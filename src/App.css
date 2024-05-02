@@ -1,0 +1,151 @@
+.uttarakhand-map{
+    margin: 8em  0;
+}
+.uttarakhand-map-heading{
+    text-align: center;
+    color: #FF9800;
+}
+
+.uttarakhand-fake-map-container{
+    background: white;
+    padding: 0;
+    margin: 1em;
+    overflow: hidden;
+    aspect-ratio: 10800/6900;
+}
+
+.uttarakhand-fake-map-container > img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 10800/6900;
+    object-fit: cover;
+    -webkit-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    -o-transform: translateZ(0);
+
+}
+.uttarakhand-map-container {
+    background: white;
+    padding: 0;
+    margin: 1em;
+    overflow: auto;
+
+    aspect-ratio: 10800/6900;
+
+    -webkit-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    -o-transform: translateZ(0);
+    transform: translateZ(0);
+}
+.uttarakhand-map-container > img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 10800/6900;
+    object-fit: cover;
+    cursor: grab;
+    -webkit-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    -o-transform: translateZ(0);
+
+}
+.zoom-button-container{
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    margin: 1em 0 1em 0;
+}
+.zoom-level-button {
+    color: white;
+    padding: 5px 10px;
+    border-radius: 3px;
+    border: 2px solid var(--green);
+}
+.zoom-level-button:hover{
+    background-color: var(--green);
+    color: var(--orange);
+    cursor: pointer;
+}
+.uttarakhand-map > p{
+    font-weight: bold;
+    text-align: center;
+    color: grey;
+    margin-bottom: 2em;
+}
+.contributor-cardlist{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+@media (prefers-reduced-motion: no-preference) {
+.contributor-cardlist-animation{
+    animation: slide-in linear;
+    animation-timeline: view(1px);
+}
+@keyframes slide-in {
+    1% {
+        scale: 0;
+        opacity: 0;
+    }
+    5% {
+        scale: 0.1;
+        opacity: 0;
+    }
+    10%{
+        scale: 1;
+        opacity: 1;
+    }
+}
+}
+
+.contributor-section > p{
+    color: grey;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 2em;
+}
+.contributor-profile{
+    margin-top: 2em;
+    text-align: center;
+}
+.contributor-profile-name > p{
+    color: grey;
+    font-size: 12px;
+    font-weight: bold;
+}
+.contributor-profile-name > .profile-name{
+    color: white;
+    font-size: 1.1em;
+    margin-bottom: 5px;
+}
+.contributor-profile-image-container > img{
+    width: 150px;
+    aspect-ratio: 793/797;
+}
+@media only screen and (max-width: 500px) {
+    .uttarakhand-map-container{
+        margin: 0.1em;
+    }
+    .uttarakhand-map > p{
+        margin-top: 0.5em;
+        font-size: 0.8em;
+        font-weight: bold;
+        text-align: center;
+        color: grey;
+    }
+}
+
+.embed-class{
+    object-fit: cover;
+    overflow: auto;
+}
+
+embed{
+    background-color: white;
+
+    color: white;
+    object-fit: cover;
+}
