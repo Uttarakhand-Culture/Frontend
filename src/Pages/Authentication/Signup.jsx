@@ -82,7 +82,6 @@ function Signup() {
         }
     }
 
-
     return (
         <section className="signup-container">
 
