@@ -89,8 +89,8 @@ If you have any questions or would like to connect, please don't hesitate to rea
 
 This project wouldn't be possible without the contributions of our amazing community. Thank you for being part of our journey! 🙌
 
-<a href = "https://github.com/ajaynegi45/Uttarakhand-Culture-Preservation-Project/graphs/contributors">
-  <img src = "https://contrib.rocks/image?repo=ajaynegi45/Uttarakhand-Culture-Preservation-Project"/>
+<a href = "https://github.com/Uttarakhand-Culture/Frontend/graphs/contributors">
+  <img src = "https://contrib.rocks/image?repo=Uttarakhand-Culture/Frontend"/>
 </a>
 
 <br/>
@@ -102,9 +102,9 @@ This project wouldn't be possible without the contributions of our amazing commu
  <br/>
 <!--   <a href="https://star-history.com/#ajaynegi45/Uttarakhand-Culture-Preservation-Project&Date"> -->
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=ajaynegi45/Uttarakhand-Culture-Preservation-Project&type=Date&theme=dark" />
-      <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=ajaynegi45/Uttarakhand-Culture-Preservation-Project&type=Date" />
-      <img align="center" alt="Star History Chart" src="https://api.star-history.com/svg?repos=ajaynegi45/Uttarakhand-Culture-Preservation-Project&type=Date" />
+      <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=Uttarakhand-Culture/Frontend&type=Date&theme=dark" />
+      <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=Uttarakhand-Culture/Frontend&type=Date" />
+      <img align="center" alt="Star History Chart" src="https://api.star-history.com/svg?repos=Uttarakhand-Culture/Frontend&type=Date" />
     </picture>
 <!--   </a> -->
 </p>
@@ -118,4 +118,4 @@ We appreciate your interest in preserving Uttarakhandi culture. Together, we can
 This project is licensed under the [MIT License](LICENSE).
 
 Made with ❤️ by Ajay Negi
-© 2024 Uttarakhand Culture Preservation
+© 2024 Uttarakhand Culture
