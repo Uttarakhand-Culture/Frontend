@@ -1,3 +1,39 @@
 .github-container{
+    position: absolute;
+    z-index: 99;
+    background-color: var(--red);
+    width: 22rem;
+    height: 2rem;
+    margin-left: -6rem ;
+    transform: rotate(-40deg);
+    gap: 0.5rem;
+    padding-right: 5rem;
 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.github-container{
+    width: 22rem;
+    height: 2rem;
+    margin-left: -6rem ;
+    transform: rotate(-40deg);
+    gap: 0.5rem;
+    padding-right: 5.6rem;
+}
+.github-container-icon {
+    width:25px;
+}
+.github-container > p {
+    font-size: 1.2rem;
+    color: white;
+}
+
+
+@media only screen and (min-width: 901px) {
+    .github-container{
+        width: 24rem;
+        padding-right: 7.5rem;
+    }
 }
